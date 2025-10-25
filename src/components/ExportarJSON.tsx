@@ -4,7 +4,6 @@ interface Pensamento {
   texto: string
   tipo: 'killer' | 'light' | 'misto' | 'neutro'
 }
-
 interface Props {
   pensamentos: Pensamento[]
 }

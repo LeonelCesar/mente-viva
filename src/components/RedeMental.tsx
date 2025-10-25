@@ -7,7 +7,7 @@ import 'reactflow/dist/style.css'
 interface Pensamento {
   texto: string
   tipo: 'killer' | 'light' | 'misto' | 'neutro'
-}
+} 
 
 interface Props {
   pensamentos: Pensamento[]
