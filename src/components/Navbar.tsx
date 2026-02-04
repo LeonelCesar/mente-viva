@@ -10,10 +10,10 @@ import { Menu, X } from 'lucide-react';
   return (
     <nav className="bg-blue-200 dark:bg-blue-900 shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        {/* Logo + Título */}
-        <div className="flex items-center gap-2">
+        
+        <div className="flex items-center gap-2 cursor-pointer">
           <span className="text-2xl">🧠</span>
-          <span className="font-bold text-lg text-blue-900 dark:text-white">Mente Viva</span>
+          <span className="font-bold text-lg text-blue-900 dark:text-white">Mente Viva Leonel</span>
         </div>
 
         {/* Menu Desktop */}
